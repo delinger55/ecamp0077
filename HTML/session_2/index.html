@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Alta de Cliente</title>
+</head>
+<body>
+    <header style="background: #269878;">
+        <h1 style="color: #353b34; font-size: 28px; font-weight: bold;">Empresa RobertoCapi Green</h1>
+        <img src="/ecamp0077/HTML/Session_1/img/hoja.png"
+         alt="" style="width: 70px;">
+
+    </header>
+    <nav style="background:#a9bf04;">
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Menú 1</a></li>
+            <li><a href="">Menú 2</a></li>
+            <li><a href="">Menú 3</a></li>
+        </ul>
+    </nav>
+
+    <section style="background: #c5cf73;">
+        <h2>Formulario de alta clientes</h2>
+        <form action="confirmacion.html" method="get">
+            <h3>Datos personales</h3>
+            <fieldset>
+                <label for="">Nombre Completo</label>
+                <input type="text" placeholder="Nombre(s) Paterno Materno">
+                <br>
+                <br>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date">
+                <h3>Dirección</h3>
+                <fieldset>
+                    <label for="">Calle</label>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label for="">Número</label>
+                    <input type="number"><br><br>
+                    
+                    <label for="region">Región de Chile:</label><br>
+                        <select id="region" name="region" required>
+                            <option value="">Seleccione una región</option>
+                            <option value="arica_y_parinacota">Arica y Parinacota</option>
+                            <option value="tarapaca">Tarapacá</option>
+                            <option value="antofagasta">Antofagasta</option>
+                            <option value="atacama">Atacama</option>
+                            <option value="coquimbo">Coquimbo</option>
+                            <option value="valparaiso">Valparaíso</option>
+                            <option value="metropolitana">Metropolitana de Santiago</option>
+                            <option value="ohiggins">Libertador General Bernardo O'Higgins</option>
+                            <option value="maule">Maule</option>
+                            <option value="nuble">Ñuble</option>
+                            <option value="biobio">Biobío</option>
+                            <option value="araucania">La Araucanía</option>
+                            <option value="rios">Los Ríos</option>
+                            <option value="lagos">Los Lagos</option>
+                            <option value="aysen">Aysén del General Carlos Ibáñez del Campo</option>
+                            <option value="magallanes">Magallanes y de la Antártica Chilena</option>
+                        </select>
+                </fieldset>
+                
+            </fieldset>
+
+            <footer style="background:#98266a;">
+                RobertoCapi Green designed by 0077
+
+            </footer>
+
+
+            
+
+
+        </form>
+
+    </section>
+</body>
+</html>
