@@ -1,0 +1,38 @@
+/* Estilo con links*/
+header{
+    background: rgb(0, 100, 53);
+}
+
+section{
+    background-color: darkcyan;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+h2{
+    color: oldlace;
+}
+
+img{
+    width: 150px;
+}
+
+.rojo{
+    background-color: #00ffff;
+}
+
+.pino{
+    background-color: rgb(138, 43, 226);
+}
+
+.eucalipto{
+    background-color: hsl(240, 100%, 50%);
+}
+/* 
+.img-normalizada{width: 400px;height: 400px;object-fit: cover;}  Para dejar iguales las imágenes
+
+agregar dos secciones o mas, usar color tipo rgb, rgba , hsl  y hexadecimal
+*/
