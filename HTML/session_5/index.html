@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Boostrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Css Bootstrap 5.3.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <!-- Javascript Bootstrap 5.3.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/8541934_head_side_cough_icon.png" alt="Bootstrap" width="30" height="24">
+            Truck Tacos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menú</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestras sucursales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">México</a></li>
+                  <li><a class="dropdown-item" href="#">Chile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Temuco</a></li>
+                  <li><a class="dropdown-item" href="#">Santiago</a></li>
+                  <li><a class="dropdown-item" href="#">Viña del Mar</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Proximamente</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="container-sm text-center">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/taco_1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/taco_2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/taco_3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container-fluid text center">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/top-view-fresh-tacos-with-meat-vegetables.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Taco 1</h5>
+                          <p class="card-text">El mejor taco vegetal</p>
+                          <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/mexican-tacos-with-beef-tomato-sauce-salsa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Taco 2</h5>
+                          <p class="card-text">Los mejores tacos de Chile</p>
+                          <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Delicious grilled chicken tacos -6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Taco 3</h5>
+                          <p class="card-text">Tacos muy deliciosos</p>
+                          <a href="#" class="btn btn-primary">Ver más detalles</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>  
+        </div>
+
+      </section>
+        
+    
+
+
+</body>
+</html>
