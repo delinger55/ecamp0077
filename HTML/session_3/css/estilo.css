@@ -1,0 +1,72 @@
+body{
+    background-color: #A2AA63;
+}
+
+h2{
+    color: darkgreen;
+}
+
+section{
+    background-image: url(../img/cantera.jpg);
+}
+
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .arsenal-sc-bold {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arsenal-sc-regular-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arsenal-sc-bold-italic {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .fondo-con-patrones{
+    background-image: url(../img/fondo-diseno-patron-organico-abstracto_1048-19286.avif);
+  }
+  
+.fuente_subtitulo{
+    color: #D9910B;
+}
+
+.fuente-titulo{
+    color: #bc7927;
+}
+
+section{
+    color: #f617d4;
+}
+
+h2{
+    color: #F2B90F;
+}
+
+#contenedor{
+    background-image: url(../img/guayaba.jpeg);
+}
+
+#contenedor h2{
+    color: #8AA1BF;
+
+}
+
+#contenedor h3{
+    color: pink;
+}
+
+#contenedor ul li{
+    color: #591902;
+}
